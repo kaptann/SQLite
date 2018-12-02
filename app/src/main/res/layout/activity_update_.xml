@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Guncellenecek kaydın id numarası"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/et_updateName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Ad"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/et_updateSurname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Soyad"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/et_updatePhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="05XX XXX XX XX"
+            android:inputType="phone"
+            android:maxLength="11" />
+
+        <Button
+            android:id="@+id/btn_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GUNCELLE" />
+
+        <Button
+            android:id="@+id/btn_showUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LISTELE" />
+
+        <ListView
+            android:id="@+id/lv_updateList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
