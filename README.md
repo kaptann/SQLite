@@ -1,3 +1,3 @@
 # SQLite
 Android Studio ile kodlanmistir.
-Veritabaninda ekle, silme, güncelleme, ve listeleme islemlerini yapmaktadir.
+Veritabaninda ekleme, silme, güncelleme, ve listeleme islemlerini yapmaktadir.
